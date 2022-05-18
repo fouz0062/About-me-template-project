@@ -2,9 +2,6 @@
     box-sizing: border-box;
     font-family: 'Trirong', serif;
 }
-table {
-    width:60%;
-}
 
 #header {
     background-color: black;
@@ -34,19 +31,18 @@ table {
     padding: 20px;
 }
 
-button {
+/*button {
     margin: 5px;
     border: 1px solid rgb(85, 220, 18);
     background-color: black;
     color: white;
-}
+}*/
 
 .content {
     margin-top: 5px;
     background-image: url("../image/claudio-testa--SO3JtE3gZo-unsplash.jpg");
     background-position: center center;
-    width: 900px;
-    height: 400px;
+    width: 60%;
 }
 
 .do {
@@ -82,18 +78,19 @@ button {
 }
 */
 
+
 [class="education"] tr {
-    padding: 5px;
     font-size: 20px;
     /*margin:0 5px;*/
     text-align: center;
+    
 
 }
 
 [class="project"] tr {
     background-color:#d9f6e0;
     text-align: center;
-    border: 1px solid rgb(16, 17, 16);
+    /*border: 1px solid rgb(16, 17, 16);*/
 }
 
 .work {
@@ -111,5 +108,4 @@ ul  {
 
 ul li {
     display: inline-block;
-    margin: 5px;
 }
