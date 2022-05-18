@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trirong', serif;
+}
+table {
+    width:60%;
+}
+
+#header {
+    background-color: black;
+    
+}
+.name {
+    font: 60px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.info, .education , .project { 
+    background-color: #d9e4e6;
+    margin-top: 5px;
+}
+
+.profile {
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 0;
+    padding: 0;
+}
+
+.aside {
+    width: 350px;
+    padding: 20px;
+}
+
+button {
+    margin: 5px;
+    border: 1px solid rgb(85, 220, 18);
+    background-color: black;
+    color: white;
+}
+
+.content {
+    margin-top: 5px;
+    background-image: url("../image/claudio-testa--SO3JtE3gZo-unsplash.jpg");
+    background-position: center center;
+    width: 900px;
+    height: 400px;
+}
+
+.do {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #d9e4e6;
+    margin-bottom: 0;
+
+}
+
+.content-element{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    border: 3px solid rgb(16, 17, 16);
+    margin:20px;
+    color: #d9e4e6;
+    margin-bottom: 20px;    
+}/*
+[class="education"] tr:first-child {
+    background-color:#d9e4e6 ;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+[class="education"] tr:nth-child(n+2) {
+    width:30px;
+    background-color: rgb(203, 238, 212);
+    text-align: center;
+    width: 20px;
+}
+*/
+
+[class="education"] tr {
+    padding: 5px;
+    font-size: 20px;
+    /*margin:0 5px;*/
+    text-align: center;
+
+}
+
+[class="project"] tr {
+    background-color:#d9f6e0;
+    text-align: center;
+    border: 1px solid rgb(16, 17, 16);
+}
+
+.work {
+    background-color: #d9e4e6 ;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+ul  {
+      list-style-type: none;
+      background-color: #d9e4e6 ;
+      text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px;
+}
